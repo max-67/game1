@@ -8,7 +8,7 @@ export const LvlGame = () => {
     return (
         <div className="game-container" ref={containerRef}>
             <Ball containerRef={containerRef}/>
-            <PlayerPlatform />
+            <PlayerPlatform containerRef={containerRef}/>
         </div>
     )
 }

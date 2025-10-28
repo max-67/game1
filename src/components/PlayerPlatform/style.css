@@ -1,7 +1,9 @@
 .playerplatfrom-container {
-    width: 100px;
+    width: 140px;
     height: 20px;
     background-color: #1e661e;
     border-radius: 10px;
     position: relative;
+    transition: transform .1s linear;
+    transform: translate(150px, 500px);
 }
